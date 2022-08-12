@@ -1,0 +1,11 @@
+
+[dev]
+  framework = "#static"
+
+[build]
+  command = "echo No build for this site, we are living on the edge"
+  publish = "public"
+
+[[edge_functions]]
+path = "/hello"
+function = "hello"
