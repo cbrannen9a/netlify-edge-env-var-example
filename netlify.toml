@@ -12,3 +12,7 @@
 [[edge_functions]]
   path = "/environmental"
   function = "environmental"
+
+[[edge_functions]]
+  path = "/error"
+  function = "error"
