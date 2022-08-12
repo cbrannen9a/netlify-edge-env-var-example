@@ -1,9 +1,11 @@
-export default () => {
+import type { Context } from "https://edge.netlify.com";
+
+export default (_: Request, context: Context) => {
   try {
     return new Response(`READ_ME "${value}".`, {
       headers: { "content-type": "text/html" },
     });
   } catch (error) {
-    console.error("Something's gone wrong", error);
+    context.log("Something's gone wrong", error);
   }
 };
