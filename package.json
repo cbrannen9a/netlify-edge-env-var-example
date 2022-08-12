@@ -1,0 +1,7 @@
+{
+  "name": "netlify-edge-env-var-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Chris Brannen <cbrannen@outlook.com>",
+  "license": "MIT"
+}
