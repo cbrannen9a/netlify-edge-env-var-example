@@ -6,5 +6,9 @@
   command = "echo No build for this site, we are living on the edge"
 
 [[edge_functions]]
-path = "/hello"
-function = "hello"
+  path = "/hello"
+  function = "hello"
+
+[[edge_functions]]
+  path = "/environmental"
+  function = "environmental"
